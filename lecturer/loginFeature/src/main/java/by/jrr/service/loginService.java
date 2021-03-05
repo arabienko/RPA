@@ -12,7 +12,14 @@ public class loginService {
     }
 
     public boolean login(User user, String userInput) {
+        if(user.getLoginAttempt()==+1){
+            blockUser(user);
+        }
         reduceLoginAttemps(user);
-return checkUserPassword(user,userInput);
+        return checkUserPassword(user,userInput);
+    }
+
+    public void blockUser(User user) {
+user.setBlocked(true);
     }
 }
