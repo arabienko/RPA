@@ -14,7 +14,7 @@ public class loginServiceTest {
     public void setup() {
         this.loginService = new loginService();
         this.user = getUser();
-        Assert.assertEquals(3, user.getLoginAttemp());
+        Assert.assertEquals(3, user.getLoginAttempt());
 
     }
 
@@ -34,6 +34,29 @@ public class loginServiceTest {
 
         boolean actualResult = loginService.checkUserPassword(user, userInput);
         Assert.assertFalse(actualResult);
+    }
+
+    @Test
+    public void reduceLoginAttemps() {
+        loginService.reduceLoginAttemps(user);
+        Assert.assertEquals(2, user.getLoginAttempt());
+    }
+
+
+    @Test
+    public void loginPositiv(){
+        String userInput="password";
+
+        boolean actualResult=loginService.login(user,userInput);
+        Assert.assertTrue(actualResult);
+    }
+    @Test
+    public void loginNegativ(){
+        String userInput="wrong";
+
+        boolean actualResult=loginService.login(user,userInput);
+        Assert.assertFalse(actualResult);
+        Assert.assertEquals(2, user.getLoginAttempt());
     }
 
     private User getUser() {

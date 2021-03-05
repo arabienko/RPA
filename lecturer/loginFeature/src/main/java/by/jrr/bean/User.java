@@ -27,7 +27,7 @@ private boolean blocked;
         this.password = password;
     }
 
-    public int getLoginAttemp() {
+    public int getLoginAttempt() {
         return loginAttemp;
     }
 
