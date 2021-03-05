@@ -5,7 +5,7 @@ import java.util.Objects;
 public class User {
 private String login;
 private String password;
-private int loginAttemp;
+private int loginAttemp=3;
 private boolean blocked;
 
     public User() {

@@ -8,15 +8,18 @@ import org.junit.Test;
 public class loginServiceTest {
 
     loginService loginService;
+    User user;
 
     @Before
     public void setup() {
         this.loginService = new loginService();
+        this.user = getUser();
+        Assert.assertEquals(3, user.getLoginAttemp());
+
     }
 
     @Test
     public void checkUserPassword_positiv() {
-        User user = getUser();
 
         String userInput = "password";
 
@@ -26,7 +29,6 @@ public class loginServiceTest {
 
     @Test
     public void checkUserPassword_negativ() {
-        User user = getUser();
 
         String userInput = "wrong";
 
