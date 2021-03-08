@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/RPA-testing.iml" filepath="$PROJECT_DIR$/.idea/RPA-testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework/java/VitaliKulsha/VitaliKulsha.iml" filepath="$PROJECT_DIR$/homework/java/VitaliKulsha/VitaliKulsha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework/java/arabienka/task1.iml" filepath="$PROJECT_DIR$/homework/java/arabienka/task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework/java/SerhiiAsanov/Lecture2/MathOperationsDemo/task1 (1) (by.jrr).iml" filepath="$PROJECT_DIR$/homework/java/SerhiiAsanov/Lecture2/MathOperationsDemo/task1 (1) (by.jrr).iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework/java/SerhiiAsanov/Lecture2/RandomGeneratorDemo/task1 (2) (by.jrr).iml" filepath="$PROJECT_DIR$/homework/java/SerhiiAsanov/Lecture2/RandomGeneratorDemo/task1 (2) (by.jrr).iml" />
+      <module fileurl="file://$PROJECT_DIR$/aTemplate/task1 (3) (by.jrr).iml" filepath="$PROJECT_DIR$/aTemplate/task1 (3) (by.jrr).iml" />
+      <module fileurl="file://$PROJECT_DIR$/lecturer/tgBot/telegrambot.iml" filepath="$PROJECT_DIR$/lecturer/tgBot/telegrambot.iml" />
+    </modules>
+  </component>
+</project>
