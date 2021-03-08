@@ -1,0 +1,38 @@
+{
+  "update_id": 847965344,
+  "message": {
+    "chatId": 216016480,
+    "superGroupMessage": false,
+    "reply": false,
+    "command": true,
+    "groupMessage": false,
+    "userMessage": true,
+    "channelMessage": false,
+    "message_id": 10,
+    "from": {
+      "bot": false,
+      "id": 216016480,
+      "first_name": "T_tetris",
+      "is_bot": false,
+      "language_code": "be"
+    },
+    "date": 1615200567,
+    "chat": {
+      "userChat": true,
+      "superGroupChat": false,
+      "groupChat": false,
+      "channelChat": false,
+      "id": 216016480,
+      "type": "private",
+      "first_name": "T_tetris"
+    },
+    "text": "/start",
+    "entities": [
+      {
+        "type": "bot_command",
+        "offset": 0,
+        "length": 6
+      }
+    ]
+  }
+}
